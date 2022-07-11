@@ -44,7 +44,7 @@ const Cart: React.FC = () => {
 				cartContext.updateCart();
 			}
 		} catch (error) {
-			toast.error("Somthing went wrong!");
+			toast.error("Something went wrong!");
 		}
 	};
 	const updateQuantity = async (cartItem: CartList, inc: Boolean, e: any) => {
